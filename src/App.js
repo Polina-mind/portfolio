@@ -1,0 +1,14 @@
+import React from "react";
+import "./Components/Resume";
+import "./App.css";
+import Resume from "./Components/Resume";
+
+function App() {
+  return (
+    <div className="App">
+      <Resume />
+    </div>
+  );
+}
+
+export default App;
