@@ -19,7 +19,14 @@ const Resume = () => {
             </a>
           </li>
           <li>Kyiv, Ukraine</li>
-          <li>Linkedin</li>
+          <li>
+            <a
+              className="contact"
+              href="https://www.linkedin.com/in/polina1505"
+            >
+              Linkedin
+            </a>
+          </li>
         </ul>
       </div>
       <div className="block">
