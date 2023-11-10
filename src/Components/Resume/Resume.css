@@ -89,25 +89,23 @@ h2 {
 .job {
   display: flex;
   justify-content: space-between;
-  padding-right: 30px;
+  padding: 0 20px;
 }
 
-@media screen and (max-width: 767px) {
+.job-title {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+@media screen and (max-width: 370px) {
   .job {
     display: block;
   }
 }
 
-.job-title {
-  margin-bottom: 5px;
-  padding-left: 30px;
-  text-align: left;
-}
-
 .job-info {
   display: flex;
   margin-bottom: 10px;
-  padding-left: 30px;
   text-align: left;
 }
 
