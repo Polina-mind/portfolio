@@ -86,13 +86,19 @@ h2 {
   margin: 0 20px;
 }
 
+.job {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
 .job-title {
   margin-bottom: 5px;
   padding-left: 30px;
   text-align: left;
 }
 
-.job {
+.job-info {
   display: flex;
   margin-bottom: 10px;
   padding-left: 30px;

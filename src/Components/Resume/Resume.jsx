@@ -66,56 +66,55 @@ const Resume = () => {
       </div>
       <div className="block">
         <h2 className="text-on-line">WORK EXPERIENCE</h2>
-        <div>
+        <div className="job">
           <h3 className="job-title">DEVELOPER</h3>
-          <div className="job">
+          <div className="job-info">
             <p className="company">EPAM</p>
             <p>Sep 2021 - Present</p>
           </div>
-          <ul className="text job-description">
-            <li>
-              Working with web technologies HTML, CSS, JavaScript, React, and
-              various libraries.
-            </li>
-            <li>Bugs fixing in application modules.</li>
-            <li>
-              Developing React components to replace the existing jQuery code.
-            </li>
-            <li>
-              Utilizing testing tools, including Jest, WDIO (using Docker and
-              Rancher), and TestCafe, to test web applications.
-            </li>
-            <li>
-              Enhancing accessibility of web applications to provide equal user
-              access (working with JAWS screen reader).
-            </li>
-            <li>
-              Effective communication with clients regarding PR&#39;s review.
-            </li>
-            <li>Working with tools, including Jira, Jenkins, and GitHub.</li>
-            <li>
-              Providing guidance for newcomers during the onboarding period.
-            </li>
-          </ul>
         </div>
-        <div>
+        <ul className="text job-description">
+          <li>
+            Working with web technologies HTML, CSS, JavaScript, React, and
+            various libraries.
+          </li>
+          <li>Bugs fixing in application modules.</li>
+          <li>
+            Developing React components to replace the existing jQuery code.
+          </li>
+          <li>
+            Utilizing testing tools, including Jest, WDIO (using Docker and
+            Rancher), and TestCafe, to test web applications.
+          </li>
+          <li>
+            Enhancing accessibility of web applications to provide equal user
+            access (working with JAWS screen reader).
+          </li>
+          <li>
+            Effective communication with clients regarding PR&#39;s review.
+          </li>
+          <li>Working with tools, including Jira, Jenkins, and GitHub.</li>
+          <li>
+            Providing guidance for newcomers during the onboarding period.
+          </li>
+        </ul>
+        <div className="job">
           <h3 className="job-title">DEVELOPER</h3>
-          <div className="job">
+          <div className="job-info">
             <p className="company">GoIT</p>
             <p>Feb 2021 - Aug 2021</p>
           </div>
-          <ul className="text job-description">
-            <li>
-              Utilized agile development methodologies to ensure project
-              success.
-            </li>
-            <li>
-              Creating the ability to add|delete the movie to the user's
-              library, implemented with local storage.
-            </li>
-            <li>Creating markup with responsive design.</li>
-          </ul>
         </div>
+        <ul className="text job-description">
+          <li>
+            Utilized agile development methodologies to ensure project success.
+          </li>
+          <li>
+            Creating the ability to add|delete the movie to the user's library,
+            implemented with local storage.
+          </li>
+          <li>Creating markup with responsive design.</li>
+        </ul>
       </div>
       <div className="block">
         <h2 className="text-on-line">EDUCATION</h2>
