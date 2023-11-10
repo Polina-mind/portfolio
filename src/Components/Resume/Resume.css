@@ -92,6 +92,12 @@ h2 {
   padding-right: 30px;
 }
 
+@media screen and (max-width: 767px) {
+  .job {
+    display: block;
+  }
+}
+
 .job-title {
   margin-bottom: 5px;
   padding-left: 30px;
